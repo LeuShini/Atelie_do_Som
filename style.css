@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--marrom: #663A28;
+--marromclaro: #CB7F44;
+--branco: #ffffff;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+/* HEADER */
+
+header>div.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--marrom);
+    height: 165px;}
+
+    .container-flex{
+        width: 85%;
+        max-width: 1440px;
+    }
