@@ -1,38 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Ateliê do Som</title>
 
-<!-- icone na guia de endereço -->
+    <!-- icone na guia de endereço -->
     <link rel="shortcut icon" href="./img/Ativo 8.svg" type="image/x-icon">
 
     <!-- vincula o css ao HTML -->
     <link rel="stylesheet" href="./style.css">
 
-<!-- vincula o script do js ao HTML -->
+    <!-- vincula o script do js ao HTML -->
     <script src="./script.js" defer></script>
-
-
 </head>
+
 <body>
-        <header>
-            <div class="container-flex">
-                <img src="./img/Ativo 7.svg" alt="">
-                <nav class="links">
-                    <a href="#">Sobre nós</a>
-                    <a href="#">Nossos cursos</a>
-                    <a href="#">Instrumentos</a>
-                    <a href="#">Contate-nos</a>
-                </nav>
+    <main>
+        <section class="banner">
+            <header>
+                <div class="container-flex">
+                    <img id="logo_chata" src="./img/Ativo 7.svg" alt="Logo Atelie do som">
+
+                    <nav id="menu" class="links">
+                        <a href="#sobreNos">Sobre Nós</a>
+                        <a href="#cursos">Nossos Cursos</a>
+                        <a href="#instrumentos">Instrumentos</a>
+                        <a href="#contato">Contate-Nos</a>
+                    </nav>
+
+                    <button id="menu_botao" type="button">
+                        <svg id="icone-barras" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <path
+                                d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                        </svg>
+
+                        <svg id="icone-x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                            <path
+                                d="M504.6 148.5C515.9 134.9 514.1 114.7 500.5 103.4C486.9 92.1 466.7 93.9 455.4 107.5L320 270L184.6 107.5C173.3 93.9 153.1 92.1 139.5 103.4C125.9 114.7 124.1 134.9 135.4 148.5L278.3 320L135.4 491.5C124.1 505.1 125.9 525.3 139.5 536.6C153.1 547.9 173.3 546.1 184.6 532.5L320 370L455.4 532.5C466.7 546.1 486.9 547.9 500.5 536.6C514.1 525.3 515.9 505.1 504.6 491.5L361.7 320L504.6 148.5z" />
+                        </svg>
+                    </button>
+
+                </div>
+            </header>
+
+        </section>
+        >
+        <section id="feitos" class="container- container-grid">
+            <div class="titulo">
+
             </div>
-</header>
+            <div class="container-cards">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-truck" viewBox="0 0 16 16">
+                        <path
+                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                    </svg>
+
+                    <h3>Qualidade e Segurança</h3>
+                    <p>Loja 100% segura e com certificado
+                        digital. Compre com tranquilidade.
+                    </p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">
+                        <path
+                            d="M128,136a8,8,0,0,1-8,8H72a8,8,0,0,1,0-16h48A8,8,0,0,1,128,136Zm-8-40H72a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16Zm112,65.47V224A8,8,0,0,1,220,231l-24-13.74L172,231A8,8,0,0,1,160,224V200H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216a16,16,0,0,1,16,16V86.53a51.88,51.88,0,0,1,0,74.94ZM160,184V161.47A52,52,0,0,1,216,76V56H40V184Zm56-12a51.88,51.88,0,0,1-40,0v38.22l16-9.16a8,8,0,0,1,7.94,0l16,9.16Zm16-48a36,36,0,1,0-36,36A36,36,0,0,0,232,124Z">
+                        </path>
+                    </svg>
+
+                    <h3>Pague com o Pix</h3>
+                    <p>Pague com Pix à vista e ganhe 10% de
+                        desconto. Nunca foi tão facil.
+                    </p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">
+                        <path
+                            d="M235.34,116.72,139.28,20.66a16,16,0,0,0-22.56,0L20.66,116.72a16,16,0,0,0,0,22.56l96.06,96.06a16,16,0,0,0,22.56,0l96.06-96.06A16,16,0,0,0,235.34,116.72ZM128,32,184,88H160a8,8,0,0,0-5.66,2.34L128,116.68,101.66,90.34A8,8,0,0,0,96,88H72ZM56,104H92.68l24,24-24,24H56L32,128Zm72,120L72,168H96a8,8,0,0,0,5.66-2.34L128,139.31l26.34,26.35A8,8,0,0,0,160,168h24Zm72-72H163.32l-24-24,24-24H200l24,24Z">
+                        </path>
+                    </svg>
+
+                    <h3 class=>Frete p/ todo o Brasil</h3>
+                    <p>Frete economico e seguro</p>
+                </div>
+
+        </section>
+
+        <section id="sobre" class="container-flex">
+            <img src="./img/banda-de-musicos-tocando-musica-em-um-evento-local.jpg"
+                alt="foto de uma pessoa trabalhando no escritorio da CNL">
+
+            <div class="conteudo-sobre">
+                <div class="titulo">
+                    <h2 class="sobre">Sobre Nós</h2>
+                </div>
+                <p>Somos uma empresa de construção sustentável que une inovação, responsabilidade ambiental e eficiência
+                    para criar espaços mais saudáveis e conscientes. Nosso compromisso é construir com qualidade,
+                    respeitando o planeta e pensando nas próximas gerações.
+                </p>
+            </div>
+        </section>
+        <section id="feitos" class="container- container-grid">
+            <div class="titulo">
+                <span>Nossos</span>
+                <h2>Feitos</h2>
+            </div>
+            <div class="container-cards">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                            d="M223.45,40.07a8,8,0,0,0-7.52-7.52C139.8,28.08,78.82,51,52.82,94a87.09,87.09,0,0,0-12.76,49c.57,15.92,5.21,32,13.79,47.85l-19.51,19.5a8,8,0,0,0,11.32,11.32l19.5-19.51C81,210.73,97.09,215.37,113,215.94q1.67.06,3.33.06A86.93,86.93,0,0,0,162,203.18C205,177.18,227.93,116.21,223.45,40.07ZM153.75,189.5c-22.75,13.78-49.68,14-76.71.77l88.63-88.62a8,8,0,0,0-11.32-11.32L65.73,179c-13.19-27-13-54,.77-76.71,22.09-36.47,74.6-56.44,141.31-54.06C210.2,114.89,190.22,167.41,153.75,189.5Z">
+                        </path>
+                    </svg>
+
+                    <h3></h3>
+                    <p>+10 anos no ramo de construção sustentavel</p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-display"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q0 1 .25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75Q6 13 6 12H2s-2 0-2-2zm1.398-.855a.76.76 0 0 0-.254.302A1.5 1.5 0 0 0 1 4.01V10c0 .325.078.502.145.602q.105.156.302.254a1.5 1.5 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.76.76 0 0 0 .254-.302 1.5 1.5 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.76.76 0 0 0-.302-.254A1.5 1.5 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145" />
+                    </svg>
+
+                    <h3></h3>
+                    <p>+15.642.842 m2 projetados</p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-megaphone"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z" />
+                    </svg>
+
+                    <h3></h3>
+                    <p>+70 projetos aprovados e executados</p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-people-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                    </svg>
+
+                    <h3></h3>
+                    <p>+450 clientes satisfeitos</p>
+                </div>
+        </section>
+        <section id="parallax"></section>
 
 
-<main>
 
-</main>
+
+    </main>
+
 </body>
+
 </html>
