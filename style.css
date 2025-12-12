@@ -193,13 +193,18 @@ header>div.container-flex {
 #sobre h2 {
     margin-right: 5px;
 }
+#sobre .titulo 
+{
+        display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
 
 #sobre h2 {
     margin-bottom: 0;
     background-color: var(--marrom);
     border-radius: 20px;
-    padding: 2px 2px;
-    margin: 40px;
+    /* margin: 40px; */
 
  
 }
